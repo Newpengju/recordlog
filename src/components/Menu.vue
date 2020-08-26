@@ -6,16 +6,18 @@
         <div class="title menu">
             <ul class="list">
                 <li v-for='list in menulist' :key='list'><a href="#">{{list}}</a></li>
-                <li><a href="#">{{find}}</a></li>
+                <li><a href="#">{{find}}</a>
+                    <ul class="f">
+                        <li v-for='flist in findlist' :key='flist'><a>{{flist}}</a></li>
+                    </ul>
+                </li>
             </ul>
-            <ul class="f">
-                <li v-for='flist in findlist' :key='flist'><a>{{flist}}</a></li>
-            </ul>
+            
         </div>
         <div class="me menu">
             <ul>
                 <li>
-                    <input type="text" class="txt" placeholder="代码改变世界" />
+                    <input type="text" class="txt" placeholder="   代码改变世界" />
                     <input type="button" value="搜索" class="btn" />
                 </li>
                 <li></li>
@@ -34,6 +36,16 @@ export default {
             find:'发现',
             findlist:['园子','小组','收藏','招聘','找找看']
         }
+    },
+    methods:{
+        // mouseOver:()=>{
+        //     let f= document.getElementById('f')
+        //     f.style.display='block'
+        // },
+        // mouseout:()=>{
+        //     let f= document.getElementById('f')
+        //     f.style.display='none'
+        // }
     }
 }
 </script>
@@ -69,15 +81,23 @@ export default {
     display: flex;
     
 }
+
 .title .list li
 {
     flex: 0.07;
     line-height: 45px;
     list-style: none;
 }
-/* .list li:last-child:hover .f{
-    display: block;
-} */
+.list li:last-child:hover .f li{
+    /* display: block; */
+    /* height: 200px; */
+    /* transform: scale(2); */
+    visibility:visible;
+    transition: all 0.3s linear;
+    opacity: 1;
+    height: 30px;
+}
+
 .title ul li a{
     color: rgb(131, 130, 130);
     text-decoration: none;
@@ -96,12 +116,19 @@ export default {
     position: absolute;
     left: 560px;
     top: 40px;
-    display: none;
+    /* display: none; */
+    visibility:hidden;
+    
 }
 .f li{
+    height: 30px;
+    top:-10px;
     list-style: none;
-    padding-top: 10px;
+    padding-top: -25px;
     background-color: rgb(221, 221, 221);
+    transition: all 0.3s linear;
+    opacity: 0.1;
+    height: 0px;
 }
 .me ul{
     display: flex;
@@ -113,13 +140,18 @@ export default {
 }
 .btn{
     border: none;
-    background-color: #fff;
+    background-color: rgba(240, 240, 240, 0.884);
     position: absolute;
     right: 210px;
     top: 22px;
+    outline: none;
 }
 .txt{
-    height: 20px;
-    border: 1px solid rgb(197, 195, 195);
+    border: none;
+    height: 25px;
+    line-height: 45px;
+    background-color: rgba(240, 240, 240, 0.884);
+    outline: none;
+    border-radius: 5px;
 }
 </style>
