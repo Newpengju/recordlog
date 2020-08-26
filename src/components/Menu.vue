@@ -38,14 +38,14 @@ export default {
         }
     },
     methods:{
-        // mouseOver:()=>{
-        //     let f= document.getElementById('f')
-        //     f.style.display='block'
-        // },
-        // mouseout:()=>{
-        //     let f= document.getElementById('f')
-        //     f.style.display='none'
-        // }
+        mouseOver:()=>{
+            let f= document.getElementById('f')
+            f.style.display='block'
+        },
+        mouseout:()=>{
+            let f= document.getElementById('f')
+            f.style.display='none'
+        }
     }
 }
 </script>
