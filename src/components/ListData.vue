@@ -323,26 +323,27 @@ export default {
 }
 .header{
     width: 100%;
-    height: 120px;
+    height: 60px;
     margin-top: 20px;
 }
 .left{
     width: 100px;
-    height: 100px;
+    height: 55px;
     margin-left: 27px;
     /* background-color: orange; */
     float: left;
 }
 .header .left img{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 52px;
 }
 .right{
     width:430px ;
-    height: 110px;
+    height: 50px;
     float: left;
     /* background-color: orchid; */
     text-align: left;
+    font-size: 12px;
 }
 .bottom{
     width: 100px;
