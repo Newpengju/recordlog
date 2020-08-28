@@ -115,7 +115,7 @@ export default {
     text-decoration: underline;
 }
 .me{
-    width: 363px;
+    width: 333px;
     height: 55px;
     /* background-color: blueviolet; */
 }
