@@ -3,7 +3,7 @@
     <div class="list" v-for="list in page_arrs" :key="list.id">
         <h3><a href="#">{{list.title}}</a></h3>
         <div class="header">
-            <div class="left"><img src='list.img' /></div>
+            <div class="left"><img :src='list.img' /></div>
             <div class="right"><p>{{list.text}}</p></div>
         </div>
         <div class="bottom">
