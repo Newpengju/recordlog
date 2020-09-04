@@ -3,9 +3,9 @@
         <div class="menu"><Menu /></div>
         
         <div class="header">
-            <div class="left"></div>
-            <div  class="center"><ListData /></div>
-            <div class="right"></div>
+            <div class="left f"></div>
+            <div  class="center f"><ListData /></div>
+            <div class="right f"></div>
         </div>
     </div>
 </template>
@@ -28,14 +28,34 @@ export default {
 </script>
 
 <style scoped>
-.header{
-    width:300px ;
-}
-.center{
-    margin-left: 300px;
-}
 .menu{
     width: 100%;
-    height: 60px;
+    height: 65px;
 }
+.header{
+    width: 100%;
+    
+}
+
+.left{
+    width: 230px;
+    height: 500px;
+    background-color: rgb(248, 3, 3);
+}
+
+.center{
+    margin-left: 230px;
+    width: 700px;
+
+}
+.right{
+    width: 302px;
+    height: 500px;
+    background-color: rgb(255, 5, 5);
+}
+.f{
+    float: left;
+    margin-left: 5px;
+}
+
 </style>

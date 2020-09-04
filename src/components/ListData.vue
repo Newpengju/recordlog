@@ -9,7 +9,9 @@
         <div class="bottom">
             <ul>
                 <li><a href="#">{{list.name}}</a></li>
-                <li>{{list.time}}</li>
+                &nbsp;&nbsp;
+                <!-- <li class="time">{{list.time}}</li> -->
+                <p>{{list.time}}</p>
                 <li><a href="#"><img src='../Img/点赞.png' />&nbsp;{{giveLikes}}</a></li>
                 <li><a href="#"><img src='../Img/评论.png' />&nbsp;{{discuss}}</a></li>
                 <li><a href="#"><img src='../Img/看过.png' />&nbsp;{{watch}}</a></li>
@@ -17,7 +19,7 @@
                 <li></li>
                 <li></li>
                 <li></li>
-                <li></li>
+                
             </ul>
         </div>
     </div>
@@ -46,7 +48,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3892521478,1695688217&fm=26&gp=0.jpg',
                     text:'12346789',
                     name:'Mr.One',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -55,7 +57,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Two',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -64,7 +66,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Three',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -73,7 +75,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Four',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -82,7 +84,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Five',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -91,7 +93,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Six',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -100,7 +102,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Siven',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -109,7 +111,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Eight',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -118,7 +120,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Nine',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -127,7 +129,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Ten',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -136,7 +138,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Elven',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -145,7 +147,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Twelve',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -154,7 +156,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Thirteen',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -163,7 +165,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Fourteen',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -172,7 +174,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Fifteen',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -181,7 +183,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Sixtee',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -190,7 +192,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Seventeen',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -199,7 +201,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Eighteen',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -208,7 +210,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Nineteen',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -217,7 +219,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.Twenty',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -226,7 +228,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.TwentyOne',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -235,7 +237,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.TwentyTwo',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 },
                 {
@@ -244,7 +246,7 @@ export default {
                     img:'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1141259048,554497535&fm=26&gp=0.jpg',
                     text:'123467891',
                     name:'Mr.TwentyThree',
-                    time:'2020/8/28',
+                    time:'2020-8-28 08:30',
                     state:false
                 }
             ]
@@ -292,9 +294,10 @@ export default {
     margin: 0px;
     padding: 0px;
 }
-.body{
-    width: 600px;
 
+.body{
+    width: 640px;
+    margin-left: 30px;
 }
 .page{
     margin: 0px auto;
